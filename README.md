@@ -5,14 +5,14 @@ apt update -y && apt install sudo && sudo apt install -y wget && sudo apt instal
 
 ```
 
-#dns server
+#main dns server
 ```
-apt update -y && apt install sudo && sudo apt install -y wget && sudo apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/vpnlegasi/script-install-access/main/install-dns-server.sh && chmod +x install-dns-server.sh && ./install-dns-server.sh
+apt update -y && apt install sudo && sudo apt install -y wget && sudo apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/vpnlegasi/script-install-access/main/main-dns.sh && chmod +x main-dns.sh && ./main-dns.sh
 
 ```
 
 #dns server
 ```
-apt update -y && apt install sudo && sudo apt install -y wget && sudo apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/vpnlegasi/script-install-access/main/install-server.sh && chmod +x install-server.sh && ./install-server.sh
+apt update -y && apt install sudo && sudo apt install -y wget && sudo apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/vpnlegasi/script-install-access/main/install-dns.sh && chmod +x install-dns.sh && ./install-dns.sh
 
 ```
